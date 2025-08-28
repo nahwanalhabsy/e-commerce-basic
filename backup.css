@@ -1,0 +1,563 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+/* halaman kesatu */
+body {
+    background-color: #3C552D
+}
+
+.NavigasiBar {
+    width: 100%;
+    display: inline;
+    position: relative;
+    background-color: #293a1f;
+}
+
+.logos--instagram-icon {
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256'%3E%3Cpath fill='%230a0a08' d='M128 23.064c34.177 0 38.225.13 51.722.745c12.48.57 19.258 2.655 23.769 4.408c5.974 2.322 10.238 5.096 14.717 9.575s7.253 8.743 9.575 14.717c1.753 4.511 3.838 11.289 4.408 23.768c.615 13.498.745 17.546.745 51.723s-.13 38.226-.745 51.723c-.57 12.48-2.655 19.257-4.408 23.768c-2.322 5.974-5.096 10.239-9.575 14.718s-8.743 7.253-14.717 9.574c-4.511 1.753-11.289 3.839-23.769 4.408c-13.495.616-17.543.746-51.722.746s-38.228-.13-51.723-.746c-12.48-.57-19.257-2.655-23.768-4.408c-5.974-2.321-10.239-5.095-14.718-9.574c-4.479-4.48-7.253-8.744-9.574-14.718c-1.753-4.51-3.839-11.288-4.408-23.768c-.616-13.497-.746-17.545-.746-51.723s.13-38.225.746-51.722c.57-12.48 2.655-19.258 4.408-23.769c2.321-5.974 5.095-10.238 9.574-14.717c4.48-4.48 8.744-7.253 14.718-9.575c4.51-1.753 11.288-3.838 23.768-4.408c13.497-.615 17.545-.745 51.723-.745M128 0C93.237 0 88.878.147 75.226.77c-13.625.622-22.93 2.786-31.071 5.95c-8.418 3.271-15.556 7.648-22.672 14.764S9.991 35.738 6.72 44.155C3.555 52.297 1.392 61.602.77 75.226C.147 88.878 0 93.237 0 128s.147 39.122.77 52.774c.622 13.625 2.785 22.93 5.95 31.071c3.27 8.417 7.647 15.556 14.763 22.672s14.254 11.492 22.672 14.763c8.142 3.165 17.446 5.328 31.07 5.95c13.653.623 18.012.77 52.775.77s39.122-.147 52.774-.77c13.624-.622 22.929-2.785 31.07-5.95c8.418-3.27 15.556-7.647 22.672-14.763s11.493-14.254 14.764-22.672c3.164-8.142 5.328-17.446 5.95-31.07c.623-13.653.77-18.012.77-52.775s-.147-39.122-.77-52.774c-.622-13.624-2.786-22.929-5.95-31.07c-3.271-8.418-7.648-15.556-14.764-22.672S220.262 9.99 211.845 6.72c-8.142-3.164-17.447-5.328-31.071-5.95C167.122.147 162.763 0 128 0m0 62.27c-36.302 0-65.73 29.43-65.73 65.73s29.428 65.73 65.73 65.73c36.301 0 65.73-29.428 65.73-65.73c0-36.301-29.429-65.73-65.73-65.73m0 108.397c-23.564 0-42.667-19.103-42.667-42.667S104.436 85.333 128 85.333s42.667 19.103 42.667 42.667s-19.103 42.667-42.667 42.667m83.686-110.994c0 8.484-6.876 15.36-15.36 15.36s-15.36-6.876-15.36-15.36s6.877-15.36 15.36-15.36s15.36 6.877 15.36 15.36'/%3E%3C/svg%3E");
+  }
+
+.stash--telegram-duotone {
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cg fill='%23000' fill-rule='evenodd' clip-rule='evenodd'%3E%3Cpath d='M12 2.625a9.375 9.375 0 1 0 0 18.75a9.375 9.375 0 0 0 0-18.75M1.375 12C1.375 6.132 6.132 1.375 12 1.375S22.625 6.132 22.625 12S17.868 22.625 12 22.625S1.375 17.868 1.375 12'/%3E%3Cpath d='M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2S2 6.477 2 12s4.477 10 10 10m4.742-13.351l-1.158 7.415a.625.625 0 0 1-.95.433l-3.878-2.43a.625.625 0 0 1-.1-.981L13.874 10c.035-.034-.008-.09-.05-.065L9.16 12.728a1.3 1.3 0 0 1-.925.163l-1.69-.327c-.608-.118-.693-.954-.12-1.191l9.034-3.735a.938.938 0 0 1 1.284 1.01'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+
+.ic--outline-discord {
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23000' d='M19.27 5.33C17.94 4.71 16.5 4.26 15 4a.1.1 0 0 0-.07.03c-.18.33-.39.76-.53 1.09a16.1 16.1 0 0 0-4.8 0c-.14-.34-.35-.76-.54-1.09c-.01-.02-.04-.03-.07-.03c-1.5.26-2.93.71-4.27 1.33c-.01 0-.02.01-.03.02c-2.72 4.07-3.47 8.03-3.1 11.95c0 .02.01.04.03.05c1.8 1.32 3.53 2.12 5.24 2.65c.03.01.06 0 .07-.02c.4-.55.76-1.13 1.07-1.74c.02-.04 0-.08-.04-.09c-.57-.22-1.11-.48-1.64-.78c-.04-.02-.04-.08-.01-.11c.11-.08.22-.17.33-.25c.02-.02.05-.02.07-.01c3.44 1.57 7.15 1.57 10.55 0c.02-.01.05-.01.07.01c.11.09.22.17.33.26c.04.03.04.09-.01.11c-.52.31-1.07.56-1.64.78c-.04.01-.05.06-.04.09c.32.61.68 1.19 1.07 1.74c.03.01.06.02.09.01c1.72-.53 3.45-1.33 5.25-2.65c.02-.01.03-.03.03-.05c.44-4.53-.73-8.46-3.1-11.95c-.01-.01-.02-.02-.04-.02M8.52 14.91c-1.03 0-1.89-.95-1.89-2.12s.84-2.12 1.89-2.12c1.06 0 1.9.96 1.89 2.12c0 1.17-.84 2.12-1.89 2.12m6.97 0c-1.03 0-1.89-.95-1.89-2.12s.84-2.12 1.89-2.12c1.06 0 1.9.96 1.89 2.12c0 1.17-.83 2.12-1.89 2.12'/%3E%3C/svg%3E");
+}
+
+.GarisHitam {
+    width: 100%;
+    position: absolute;
+}
+
+.Logo {
+    font-family: irish grover, poppins;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    padding-left: 35px;
+    color: white;
+    flex-direction: column;
+    
+}
+
+.Menu li {
+    list-style-type: none;
+    display: inline-block;
+    float: right;
+    padding-top: 5px;
+    padding: 5px;
+}
+
+.Menu li a:hover {
+    color: black;
+    font-style: italic;
+}
+
+.Menu {
+    display: inline-block;
+    float: left;
+    margin-left: 800px;
+    margin-top: -55px;
+    padding: 10px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    font-family: poppins;
+}
+
+.banner {
+    background-color: #3C552D;
+    height: 500px;
+}
+
+
+.portosatu h1  {
+    font-family: irish grover;
+    color: white;
+    text-align: center;
+    font-size: 130px;
+    padding-top: 40px;
+    margin-left: 70px;
+    position: relative;
+    z-index: 3;
+}
+
+.gambarsatu img {
+    width: 400px;
+    position: absolute;
+    margin-top: -80px;
+    left: 150px;
+    z-index: 2;
+}
+
+.portodua h2 {
+    font-family: irish grover;
+    color: white;
+    text-align: center;
+    margin-top: -40px;
+    font-size: 120px;
+    margin-left: 90px;
+    position: relative;
+    z-index: 1;
+}
+
+
+.kotakhitam {  
+    width: 100%;
+    height: 154px;
+    background-color: black;
+    margin-top: -90px;
+ 
+}
+
+
+/* halaman kedua */
+.keterangan {
+}
+
+.keterangan h1 {
+
+    font-family: irish grover;
+    color: white;
+    font-size: 110px;
+    text-align: left;
+    margin-top: -55px;
+    margin-left: 170px;
+    padding-top: 50px;
+ 
+}
+
+.gambardua img {
+    width: 300px;
+    position: absolute;
+    margin-top: -270px;
+    right: 200px;
+}
+
+.desk p {
+    color: white;
+    font-style: poppins;
+    font-size: 25px;
+    text-align: left;
+    margin-top: 5px;
+    width: 450px;
+    margin-left: 160px;
+}
+
+
+.kotakhitamdua {
+    width: 300px;
+    height: 165px;
+    background-color: black;   
+    margin-top: 10px;
+    margin-left: 763px;
+   
+}
+
+.cv {
+    padding: 10px;
+    font-family: poppins;
+    text-decoration: none;
+    background-color: #293a1f;
+    border: 3px solid black;
+    color: white;
+    border-radius: 10px;
+    margin-left: 450px;
+    
+}
+
+.cv:hover {
+    background-color: #3C552D;
+    color: black;
+}
+
+
+
+/* halaman ketiga */
+.keteranganskil {
+    background-color: #3C552D;
+}
+
+.keteranganskil h1 {
+    font-family: irish grover;
+    color: white;
+    font-size: 110px;
+    margin-left: 200px;
+}
+
+.box-kiri img, .box-kiritengah img, .box-kanantengah img, .box-kanan img {
+    width: 125px;
+    height: 125px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+.box-kiri, .box-kiritengah, .box-kanantengah, .box-kanan {
+    width: 200px;
+    height: 250px;
+    background-color: white;
+    text-align: center;
+    font-size: 9px;
+    font-family: poppins;
+    margin: 70px 20px 20px 55px ;
+    border-radius: 31px;
+    float: left;
+    padding: 16px 16px;
+}
+
+.box-kiri img {
+    margin: 13px;
+}
+
+.box-kiritengah img {
+    margin: 13px;
+}
+
+.box-kanantengah img {
+    margin: 13px;
+    width: 175px;
+    height: 125px;
+    background-color: white;
+} 
+
+.box-kanan img {
+    margin: 13px;
+    width: 155px;
+    height: 125px;
+}   
+
+.box-kiri:hover, .box-kiritengah:hover, .box-kanantengah:hover, .box-kanan:hover {
+    background-color: #CBC5E0;
+    color: white;
+
+} 
+
+
+/* project satu */
+.myprojectsatu h1 {
+    font-family: irish grover;
+    color: white;
+    font-size: 95px;
+    margin-left: 50px;
+    padding-top: 600px;
+}
+
+.desksatu p {
+    color: white;
+    font-style: poppins;
+    font-size: 27px;
+    text-align: left;
+    margin-top: 45px;
+    width: 450px;
+    margin-left: 65px;
+}
+
+.gambarprojectsatu img {
+    width: 255px;
+    padding-left: 650px;
+    margin-top: -350px;
+}
+
+.gambarprojectdua img {
+    width: 255px;
+    padding-left: 950px;
+    margin-top: -1000px;
+    height: 553px;
+
+}
+
+
+/* projectdua */
+.myprojectdua h1 {
+    font-family: irish grover;
+    color: white;
+    font-size: 95px;
+    margin-left: 50px;
+    padding-top: 300px;
+}
+
+.deskdua p {
+    color: white;
+    font-style: poppins;
+    font-size: 27px;
+    text-align: left;
+    margin-top: 45px;
+    width: 450px;
+    margin-left: 65px;
+}
+
+.gambarprojectanime {
+    width: 350px;
+    height: 500px;
+    background-color: white;
+    border-radius: 21px;
+    margin-left: 750px;
+    margin-top: -250px; 
+}
+
+.gambarprojectanime img {
+    width: 300px;
+    margin-left: 25px;
+    margin-top: 30px; 
+}
+
+
+/* projectiga */
+.myprojectiga h1 {
+    font-family: irish grover;
+    color: white;
+    font-size: 95px;
+    margin-left: 50px;
+    padding-top: 300px;
+}
+
+.desktiga p {
+    color: white;
+    font-style: poppins;
+    font-size: 27px;
+    text-align: left;
+    margin-top: 45px;
+    width: 450px;
+    margin-left: 65px;
+}
+
+.gambarprojectps {
+    width: 350px;
+    height: 340px;
+    background-color: white;
+    border-radius: 21px;
+    margin-left: 750px;
+    margin-top: -200px; 
+}
+
+.gambarprojectps img {
+    width: 300px;
+    margin-left: 25px;
+    margin-top: 35px; 
+}
+
+
+/* projectempat */
+.myprojectempat h1 {
+    font-family: irish grover;
+    color: white;
+    font-size: 95px;
+    margin-left: 50px;
+    padding-top: 300px;
+}
+
+.deskempat p {
+    color: white;
+    font-style: poppins;
+    font-size: 27px;
+    text-align: left;
+    margin-top: 45px;
+    width: 450px;
+    margin-left: 65px;
+}
+
+.gambarprojectai {
+    width: 350px;
+    height: 500px;
+    background-color: #E2CFC7;
+    border-radius: 21px;
+    margin-left: 750px;
+    margin-top: -250px; 
+}
+
+.gambarprojectai img {
+    width: 300px;
+    margin-left: 25px;
+    margin-top: 35px; 
+}
+
+/* projectlima */
+.myprojectlima h1 {
+    font-family: irish grover;
+    color: white;
+    font-size: 95px;
+    margin-left: 50px;
+    padding-top: 300px;
+}
+
+.desklima p {
+    color: white;
+    font-style: poppins;
+    font-size: 27px;
+    text-align: left;
+    margin-top: 45px;
+    width: 450px;
+    margin-left: 65px;
+}
+
+.gambarprojectword {
+    width: 650px;
+    height: 470px;
+    background-color: white;
+    border-radius: 21px;
+    margin-left: 550px;
+    margin-top: -85px; 
+}
+
+.gambarprojectword img {
+    width: 600px;
+    margin-left: 25px;
+    margin-top: 30px; 
+}
+
+
+/* project enam */
+.myprojectenam h1 {
+    font-family: irish grover;
+    color: white;
+    font-size: 95px;
+    margin-left: 50px;
+    padding-top: 300px;
+}
+
+.deskenam p {
+    color: white;
+    font-style: poppins;
+    font-size: 27px;
+    text-align: left;
+    margin-top: 45px;
+    width: 450px;
+    margin-left: 65px;
+}
+
+.gambarprojectweb {
+    width: 650px;
+    height: 350px;
+    background-color: white;
+    border-radius: 21px;
+    margin-left: 550px;
+    margin-top: -85px; 
+}
+
+.gambarprojectweb img {
+    width: 600px;
+    margin-left: 25px;
+    margin-top: 30px; 
+}
+
+
+/* halaman terakhir */
+.bg {
+    width: 750px;
+    height: 310px;
+    background-color: white;
+    border-radius: 15px;
+    margin-left: 250px;
+    margin-top: 200px;
+}
+
+
+input[type="text"] {
+    width: 300px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 3px solid black;
+    border-radius: 7px;
+    box-sizing: border-box;
+    margin-left: 75px;
+    margin-top: 10px;
+    font-family: poppins;
+    color: white;
+    background-color: #3C552D;
+    
+}
+
+.komentar ::placeholder {
+    color: white;
+}
+
+input[type="textarea"] {
+    width: 300px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 3px solid black;
+    border-radius: 7px;
+    box-sizing: border-box;
+    margin-left: 75px;
+    margin-top: 10px;
+    height: 100px;
+    font-family: poppins;
+    color: white;
+    background-color: #3C552D;
+}
+
+.komentar {
+    margin-top: 10px;
+    position: absolute;
+    width: 300px;
+    
+}
+
+.button {
+    font-family: poppins;
+    width: 75px;
+    background-color: #3C552D;
+    color: white;
+    border: 3px solid black;
+    border-radius: 3px;
+    height: 30px;
+    margin-left: 290px;
+    margin-bottom: 300px;
+}
+
+.gambarfreelence img {
+    width: 250px;
+    float: right;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+
+.footer {  
+    width: 100%;
+    height: 85px;
+    background-color: #293a1f;
+    margin-top: 250px;
+}
+
+.footer h5 {
+    font-family: poppins;
+    color: white;
+    font-size: 20px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+/* responsive */
+@media screen and (max-width:550px) {
+    .background {
+        width: 95%;
+    }
+}
+
+
+
+
+
+
+

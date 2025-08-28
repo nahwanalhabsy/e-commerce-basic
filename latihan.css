@@ -1,0 +1,51 @@
+body {
+    background-color: #282424
+}
+
+.box-kiri img, .box-kiritengah img, .box-kanantengah img, .box-kanan img {
+    width: 125px;
+    height: 125px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+.box-kiri, .box-kiritengah, .box-kanantengah, .box-kanan {
+    width: 200px;
+    height: 300px;
+    background-color: white;
+    text-align: center;
+    font-size: 9px;
+    font-family: poppins;
+    margin: 210px 20px 20px 55px ;
+    border-radius: 5px;
+    float: left;
+    padding: 16px 16px;
+
+}
+
+.box-kiri img {
+    margin: 13px;
+}
+
+.box-kiritengah img {
+    margin: 13px;
+}
+
+.box-kanantengah img {
+    margin: 13px;
+    width: 175px;
+    height: 125px;
+    background-color: white;
+} 
+
+.box-kanan img {
+    margin: 13px;
+    width: 155px;
+    height: 125px;
+}   
+
+.box-kiri:hover, .box-kiritengah:hover, .box-kanantengah:hover, .box-kanan:hover {
+    background-color: #CBC5E0;
+    color: white;
+
+} 

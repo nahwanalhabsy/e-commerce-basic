@@ -1,0 +1,534 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+/* halaman kesatu */
+body {
+    background-color: #3C552D
+}
+
+.NavigasiBar {
+    width: 100%;
+    display: inline;
+    position: fixed;
+    background-color: #293a1f;
+}
+
+.logos--instagram-icon {
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256'%3E%3Cpath fill='%230a0a08' d='M128 23.064c34.177 0 38.225.13 51.722.745c12.48.57 19.258 2.655 23.769 4.408c5.974 2.322 10.238 5.096 14.717 9.575s7.253 8.743 9.575 14.717c1.753 4.511 3.838 11.289 4.408 23.768c.615 13.498.745 17.546.745 51.723s-.13 38.226-.745 51.723c-.57 12.48-2.655 19.257-4.408 23.768c-2.322 5.974-5.096 10.239-9.575 14.718s-8.743 7.253-14.717 9.574c-4.511 1.753-11.289 3.839-23.769 4.408c-13.495.616-17.543.746-51.722.746s-38.228-.13-51.723-.746c-12.48-.57-19.257-2.655-23.768-4.408c-5.974-2.321-10.239-5.095-14.718-9.574c-4.479-4.48-7.253-8.744-9.574-14.718c-1.753-4.51-3.839-11.288-4.408-23.768c-.616-13.497-.746-17.545-.746-51.723s.13-38.225.746-51.722c.57-12.48 2.655-19.258 4.408-23.769c2.321-5.974 5.095-10.238 9.574-14.717c4.48-4.48 8.744-7.253 14.718-9.575c4.51-1.753 11.288-3.838 23.768-4.408c13.497-.615 17.545-.745 51.723-.745M128 0C93.237 0 88.878.147 75.226.77c-13.625.622-22.93 2.786-31.071 5.95c-8.418 3.271-15.556 7.648-22.672 14.764S9.991 35.738 6.72 44.155C3.555 52.297 1.392 61.602.77 75.226C.147 88.878 0 93.237 0 128s.147 39.122.77 52.774c.622 13.625 2.785 22.93 5.95 31.071c3.27 8.417 7.647 15.556 14.763 22.672s14.254 11.492 22.672 14.763c8.142 3.165 17.446 5.328 31.07 5.95c13.653.623 18.012.77 52.775.77s39.122-.147 52.774-.77c13.624-.622 22.929-2.785 31.07-5.95c8.418-3.27 15.556-7.647 22.672-14.763s11.493-14.254 14.764-22.672c3.164-8.142 5.328-17.446 5.95-31.07c.623-13.653.77-18.012.77-52.775s-.147-39.122-.77-52.774c-.622-13.624-2.786-22.929-5.95-31.07c-3.271-8.418-7.648-15.556-14.764-22.672S220.262 9.99 211.845 6.72c-8.142-3.164-17.447-5.328-31.071-5.95C167.122.147 162.763 0 128 0m0 62.27c-36.302 0-65.73 29.43-65.73 65.73s29.428 65.73 65.73 65.73c36.301 0 65.73-29.428 65.73-65.73c0-36.301-29.429-65.73-65.73-65.73m0 108.397c-23.564 0-42.667-19.103-42.667-42.667S104.436 85.333 128 85.333s42.667 19.103 42.667 42.667s-19.103 42.667-42.667 42.667m83.686-110.994c0 8.484-6.876 15.36-15.36 15.36s-15.36-6.876-15.36-15.36s6.877-15.36 15.36-15.36s15.36 6.877 15.36 15.36'/%3E%3C/svg%3E");
+  }
+
+.logos--telegram {
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256'%3E%3Cdefs%3E%3ClinearGradient id='logosTelegram0' x1='50%25' x2='50%25' y1='0%25' y2='100%25'%3E%3Cstop offset='0%25' stop-color='%232aabee'/%3E%3Cstop offset='100%25' stop-color='%23229ed9'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cpath fill='url(%23logosTelegram0)' d='M128 0C94.06 0 61.48 13.494 37.5 37.49A128.04 128.04 0 0 0 0 128c0 33.934 13.5 66.514 37.5 90.51C61.48 242.506 94.06 256 128 256s66.52-13.494 90.5-37.49c24-23.996 37.5-56.576 37.5-90.51s-13.5-66.514-37.5-90.51C194.52 13.494 161.94 0 128 0'/%3E%3Cpath fill='%23fff' d='M57.94 126.648q55.98-24.384 74.64-32.152c35.56-14.786 42.94-17.354 47.76-17.441c1.06-.017 3.42.245 4.96 1.49c1.28 1.05 1.64 2.47 1.82 3.467c.16.996.38 3.266.2 5.038c-1.92 20.24-10.26 69.356-14.5 92.026c-1.78 9.592-5.32 12.808-8.74 13.122c-7.44.684-13.08-4.912-20.28-9.63c-11.26-7.386-17.62-11.982-28.56-19.188c-12.64-8.328-4.44-12.906 2.76-20.386c1.88-1.958 34.64-31.748 35.26-34.45c.08-.338.16-1.598-.6-2.262c-.74-.666-1.84-.438-2.64-.258c-1.14.256-19.12 12.152-54 35.686c-5.1 3.508-9.72 5.218-13.88 5.128c-4.56-.098-13.36-2.584-19.9-4.708c-8-2.606-14.38-3.984-13.82-8.41c.28-2.304 3.46-4.662 9.52-7.072'/%3E%3C/svg%3E");
+}
+
+.skill-icons--discord {
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256'%3E%3Cg fill='none'%3E%3Crect width='256' height='256' fill='%235865f2' rx='60'/%3E%3Cg clip-path='url(%23skillIconsDiscord0)'%3E%3Cpath fill='%23fff' d='M197.308 64.797a165 165 0 0 0-40.709-12.627a.62.62 0 0 0-.654.31c-1.758 3.126-3.706 7.206-5.069 10.412c-15.373-2.302-30.666-2.302-45.723 0c-1.364-3.278-3.382-7.286-5.148-10.412a.64.64 0 0 0-.655-.31a164.5 164.5 0 0 0-40.709 12.627a.6.6 0 0 0-.268.23c-25.928 38.736-33.03 76.52-29.546 113.836a.7.7 0 0 0 .26.468c17.106 12.563 33.677 20.19 49.94 25.245a.65.65 0 0 0 .702-.23c3.847-5.254 7.276-10.793 10.217-16.618a.633.633 0 0 0-.347-.881c-5.44-2.064-10.619-4.579-15.601-7.436a.642.642 0 0 1-.063-1.064a86 86 0 0 0 3.098-2.428a.62.62 0 0 1 .646-.088c32.732 14.944 68.167 14.944 100.512 0a.62.62 0 0 1 .655.08a80 80 0 0 0 3.106 2.436a.642.642 0 0 1-.055 1.064a102.6 102.6 0 0 1-15.609 7.428a.64.64 0 0 0-.339.889a133 133 0 0 0 10.208 16.61a.64.64 0 0 0 .702.238c16.342-5.055 32.913-12.682 50.02-25.245a.65.65 0 0 0 .26-.46c4.17-43.141-6.985-80.616-29.571-113.836a.5.5 0 0 0-.26-.238M94.834 156.142c-9.855 0-17.975-9.047-17.975-20.158s7.963-20.158 17.975-20.158c10.09 0 18.131 9.127 17.973 20.158c0 11.111-7.962 20.158-17.973 20.158m66.456 0c-9.855 0-17.974-9.047-17.974-20.158s7.962-20.158 17.974-20.158c10.09 0 18.131 9.127 17.974 20.158c0 11.111-7.884 20.158-17.974 20.158'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='skillIconsDiscord0'%3E%3Cpath fill='%23fff' d='M28 51h200v154.93H28z'/%3E%3C/clipPath%3E%3C/defs%3E%3C/g%3E%3C/svg%3E");
+}
+
+.GarisHitam {
+    width: 100%;
+    position: absolute;
+}
+
+.Logo {
+    font-family: irish grover, poppins;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    padding-left: 35px;
+    color: white;
+    flex-direction: column;
+    
+}
+
+.Menu li {
+    list-style-type: none;
+    display: inline-block;
+    float: right;
+    padding-top: 5px;
+    padding: 5px;
+}
+
+.Menu li a:hover {
+    color: black;
+    font-style: italic;
+}
+
+.Menu {
+    display: inline-block;
+    float: left;
+    margin-left: 800px;
+    margin-top: -55px;
+    padding: 10px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    font-family: poppins;
+}
+
+.banner {
+    background-color: #3C552D;
+    height: 500px;
+}
+
+
+.portosatu h1  {
+    font-family: irish grover;
+    color: white;
+    text-align: center;
+    font-size: 130px;
+    padding-top: 90px;
+    margin-left: 70px;
+    z-index: 3;
+}
+
+.gambarsatu img {
+    width: 400px;
+    margin-top: -60px;
+    margin-left: 200px;
+    z-index: 2;
+}
+
+.portodua h2 {
+    font-family: irish grover;
+    color: white;
+    text-align: center;
+    margin-top: -220px;
+    padding-top: 2px;
+    font-size: 120px;
+    margin-left: 90px;
+
+    z-index: 1;
+}
+
+
+.kotakhitam {  
+    width: 100%;
+    height: 154px;
+    background-color: black;
+    margin-top: 0px;
+ 
+}
+
+
+/* halaman kedua */
+.keterangan {
+}
+
+.keterangan h1 {
+
+    font-family: irish grover;
+    color: white;
+    font-size: 110px;
+    text-align: left;
+    margin-top: -55px;
+    margin-left: 170px;
+    padding-top: 50px;
+ 
+}
+
+.gambardua img {
+    width: 300px;
+    position: absolute;
+    margin-top: -270px;
+    right: 200px;
+}
+
+.desk p {
+    color: white;
+    font-style: poppins;
+    font-size: 25px;
+    text-align: left;
+    margin-top: 5px;
+    width: 450px;
+    margin-left: 160px;
+}
+
+
+.kotakhitamdua {
+    width: 300px;
+    height: 165px;
+    background-color: black;   
+    margin-top: 10px;
+    margin-left: 763px;
+   
+}
+
+
+/* halaman ketiga */
+.keteranganskil {
+    background-color: #3C552D;
+}
+
+.keteranganskil h1 {
+    font-family: irish grover;
+    color: white;
+    font-size: 110px;
+    margin-left: 200px;
+}
+
+.box-kiri img, .box-kiritengah img, .box-kanantengah img, .box-kanan img {
+    width: 125px;
+    height: 125px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+.box-kiri, .box-kiritengah, .box-kanantengah, .box-kanan {
+    width: 200px;
+    height: 250px;
+    background-color: white;
+    text-align: center;
+    font-size: 9px;
+    font-family: poppins;
+    margin: 70px 20px 20px 55px ;
+    border-radius: 31px;
+    float: left;
+    padding: 16px 16px;
+}
+
+.box-kiri img {
+    margin: 13px;
+}
+
+.box-kiritengah img {
+    margin: 13px;
+}
+
+.box-kanantengah img {
+    margin: 13px;
+    width: 175px;
+    height: 125px;
+    background-color: white;
+} 
+
+.box-kanan img {
+    margin: 13px;
+    width: 155px;
+    height: 125px;
+}   
+
+.box-kiri:hover, .box-kiritengah:hover, .box-kanantengah:hover, .box-kanan:hover {
+    background-color: #CBC5E0;
+    color: white;
+
+} 
+
+
+/* project satu */
+.myprojectsatu h1 {
+    font-family: irish grover;
+    color: white;
+    font-size: 95px;
+    margin-left: 50px;
+    padding-top: 600px;
+}
+
+.desksatu p {
+    color: white;
+    font-style: poppins;
+    font-size: 27px;
+    text-align: left;
+    margin-top: 45px;
+    width: 450px;
+    margin-left: 65px;
+}
+
+.gambarprojectsatu img {
+    width: 255px;
+    padding-left: 650px;
+    margin-top: -350px;
+}
+
+.gambarprojectdua img {
+    width: 255px;
+    padding-left: 950px;
+    margin-top: -1000px;
+    height: 553px;
+
+}
+
+
+/* projectdua */
+.myprojectdua h1 {
+    font-family: irish grover;
+    color: white;
+    font-size: 95px;
+    margin-left: 50px;
+    padding-top: 300px;
+}
+
+.deskdua p {
+    color: white;
+    font-style: poppins;
+    font-size: 27px;
+    text-align: left;
+    margin-top: 45px;
+    width: 450px;
+    margin-left: 65px;
+}
+
+.gambarprojectanime {
+    width: 350px;
+    height: 500px;
+    background-color: white;
+    border-radius: 21px;
+    margin-left: 750px;
+    margin-top: -250px; 
+}
+
+.gambarprojectanime img {
+    width: 300px;
+    margin-left: 25px;
+    margin-top: 30px; 
+}
+
+
+/* projectiga */
+.myprojectiga h1 {
+    font-family: irish grover;
+    color: white;
+    font-size: 95px;
+    margin-left: 50px;
+    padding-top: 300px;
+}
+
+.desktiga p {
+    color: white;
+    font-style: poppins;
+    font-size: 27px;
+    text-align: left;
+    margin-top: 45px;
+    width: 450px;
+    margin-left: 65px;
+}
+
+.gambarprojectps {
+    width: 350px;
+    height: 340px;
+    background-color: white;
+    border-radius: 21px;
+    margin-left: 750px;
+    margin-top: -200px; 
+}
+
+.gambarprojectps img {
+    width: 300px;
+    margin-left: 25px;
+    margin-top: 35px; 
+}
+
+
+/* projectempat */
+.myprojectempat h1 {
+    font-family: irish grover;
+    color: white;
+    font-size: 95px;
+    margin-left: 50px;
+    padding-top: 300px;
+}
+
+.deskempat p {
+    color: white;
+    font-style: poppins;
+    font-size: 27px;
+    text-align: left;
+    margin-top: 45px;
+    width: 450px;
+    margin-left: 65px;
+}
+
+.gambarprojectai {
+    width: 350px;
+    height: 500px;
+    background-color: #E2CFC7;
+    border-radius: 21px;
+    margin-left: 750px;
+    margin-top: -250px; 
+}
+
+.gambarprojectai img {
+    width: 300px;
+    margin-left: 25px;
+    margin-top: 35px; 
+}
+
+/* projectlima */
+.myprojectlima h1 {
+    font-family: irish grover;
+    color: white;
+    font-size: 95px;
+    margin-left: 50px;
+    padding-top: 300px;
+}
+
+.desklima p {
+    color: white;
+    font-style: poppins;
+    font-size: 27px;
+    text-align: left;
+    margin-top: 45px;
+    width: 450px;
+    margin-left: 65px;
+}
+
+.gambarprojectword {
+    width: 650px;
+    height: 470px;
+    background-color: white;
+    border-radius: 21px;
+    margin-left: 550px;
+    margin-top: -85px; 
+}
+
+.gambarprojectword img {
+    width: 600px;
+    margin-left: 25px;
+    margin-top: 30px; 
+}
+
+
+/* project enam */
+.myprojectenam h1 {
+    font-family: irish grover;
+    color: white;
+    font-size: 95px;
+    margin-left: 50px;
+    padding-top: 300px;
+}
+
+.deskenam p {
+    color: white;
+    font-style: poppins;
+    font-size: 27px;
+    text-align: left;
+    margin-top: 45px;
+    width: 450px;
+    margin-left: 65px;
+}
+
+.gambarprojectweb {
+    width: 650px;
+    height: 350px;
+    background-color: white;
+    border-radius: 21px;
+    margin-left: 550px;
+    margin-top: -85px; 
+}
+
+.gambarprojectweb img {
+    width: 600px;
+    margin-left: 25px;
+    margin-top: 30px; 
+}
+
+
+/* halaman terakhir */
+.bg {
+    width: 750px;
+    height: 320px;
+    background-color: white;
+    border-radius: 15px;
+    margin-left: 250px;
+    margin-top: 200px;
+}
+
+
+input[type="text"] {
+    width: 300px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 3px solid black;
+    border-radius: 7px;
+    box-sizing: border-box;
+    margin-left: 75px;
+    margin-top: 10px;
+    font-family: poppins;
+    color: white;
+    background-color: #3C552D;
+    
+}
+
+.komentar ::placeholder {
+    color: white;
+}
+
+.Ulasantiga {
+    margin-top: 10px;
+    height: 100px;
+    border: 3px solid black;
+    border-radius: 7px;
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-top: 10px;
+    width: 300px;
+    margin-left: 75px;
+    font-family: poppins;
+    color: white;
+    background-color: #3C552D;
+}
+
+.komentar {
+    margin-top: 10px;
+    position: absolute;
+    width: 300px;
+    
+}
+
+.button {
+    font-family: poppins;
+    width: 75px;
+    background-color: #3C552D;
+    color: white;
+    border: 3px solid black;
+    border-radius: 3px;
+    height: 30px;
+    margin-left: 290px;
+    margin-bottom: 300px;
+}
+
+.gambarfreelence img {
+    width: 250px;
+    float: right;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+
+.footer {  
+    width: 100%;
+    height: 85px;
+    background-color: #293a1f;
+    margin-top: 250px;
+}
+
+.footer h5 {
+    font-family: poppins;
+    color: white;
+    font-size: 20px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+
+
+
+
